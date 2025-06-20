@@ -9,11 +9,6 @@ package Java.Nilzon;
 
 class o2 {
 
-    public static void main(String[] args){
-
-        System.out.println(maximumDifference(new int[]{1,5,2,10}));
-    }
-
     static public int maximumDifference(int[] nums) {
         int min = nums[0]; //dada la condicion, asumiremos que el primer numero es el menor
         int maxDiff = -1; //de esta forma retornamos directamente -1 (como pide el problema) sin importarnos que suceda
@@ -27,4 +22,5 @@ class o2 {
         }
         return maxDiff;
     }
+
 }
